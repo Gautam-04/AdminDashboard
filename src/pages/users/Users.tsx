@@ -1,9 +1,9 @@
 import { GridColDef } from "@mui/x-data-grid";
 import DataTable from "../../components/dataTable/DataTable";
-import "./users.scss";
 import { useState } from "react";
 import { userRows } from "../../data";
 import Add from "../../components/add/Add";
+import './users.scss'
 
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 90 },
